@@ -1,0 +1,6 @@
+framework module Pods_Vietcombanks {
+  umbrella header "Pods-Vietcombanks-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,23 @@
+PODS:
+  - CocoaProxy (0.1.1)
+  - InfiniteLayout (0.4.1):
+    - CocoaProxy (~> 0)
+    - InfiniteLayout/Core (= 0.4.1)
+  - InfiniteLayout/Core (0.4.1):
+    - CocoaProxy (~> 0)
+
+DEPENDENCIES:
+  - InfiniteLayout
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaProxy
+    - InfiniteLayout
+
+SPEC CHECKSUMS:
+  CocoaProxy: 35ab81e24325b33834cffe45a3d1fd48ca67ef3a
+  InfiniteLayout: 458eadbcb94afc3d777141990fbfe7a804a35609
+
+PODFILE CHECKSUM: 3e9947ece9005d066d11944d536cdc216045c830
+
+COCOAPODS: 1.7.0

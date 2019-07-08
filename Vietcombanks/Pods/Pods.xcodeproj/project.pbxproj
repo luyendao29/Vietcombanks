@@ -1,0 +1,832 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A828BE2DEAA9C74D22F29EA741BCE97 /* CocoaProxy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62E2326BB290190280EC4C0376B9EB7F /* CocoaProxy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42A8DC08A23F0C34201CE788BF5E85CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49D153097E86A30BD58B6B23B4338E6 /* Foundation.framework */; };
+		53F59EF2C2714399A9C6A8B055B8CBCA /* InfiniteLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FACDE88B29616F93FB9DA0B90B4DB23D /* InfiniteLayout-dummy.m */; };
+		665A9738B4D7C8318038415489F75B77 /* CocoaProxy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2139226530E36C8787C4D75E214C26F /* CocoaProxy-dummy.m */; };
+		820F3D2D4B7A676D64D4E15FE7F5E200 /* InfiniteCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A120CBA61108BD36B7C79CAFE13A2C /* InfiniteCollectionView.swift */; };
+		85C476AF962A024F31B01E20E4FAE043 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49D153097E86A30BD58B6B23B4338E6 /* Foundation.framework */; };
+		897FE21118D7D4B5CB8704546BA3DE6C /* InfiniteLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C8B514E41A38EFE96C41B6438C0982 /* InfiniteLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B77F3AF0801EF5F253D278684FFB001 /* InfiniteCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9F268269D2448772015A0643C10B00 /* InfiniteCollectionViewController.swift */; };
+		99DE8516D707CF8B0A7A1E716079DF5F /* CocoaProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC5A6737FE5F72BE41F754151402B4E /* CocoaProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A09F401269DD5C9F2C4E2ADDA8D707D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49D153097E86A30BD58B6B23B4338E6 /* Foundation.framework */; };
+		B23BA65874FAC0269C5C41E903D97585 /* InfiniteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA364ED1D5072656E7C297C2880AB82A /* InfiniteDataSource.swift */; };
+		B3627BAE0C5E2968CB33F9ABA3810480 /* InfiniteCollectionViewProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0501CF89C564A595D9D6EFF72D1441C /* InfiniteCollectionViewProxy.swift */; };
+		BEB9FAECF3C4294F649CFA45DE60F54B /* CocoaProxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940F9EA0AEB137ED09AF4EBEEC3AEA23 /* CocoaProxy.framework */; };
+		D0B63AE97D56FBF9A8BA1605C39A9CAE /* Pods-Vietcombanks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C36C3B225C0E06E0D13AAE92DBF02254 /* Pods-Vietcombanks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA8888C0563EE3552112B951D66AC57B /* Pods-Vietcombanks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B8942DF187FA653F5DD29503B0CBFA /* Pods-Vietcombanks-dummy.m */; };
+		F7A303635C5569B11EA97C646EA273DF /* InfiniteLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3575001EB6B23B92C76B1DBCB5C99C43 /* InfiniteLayout.swift */; };
+		F894875D44FFB82FFB58AE8F4876B47E /* CocoaProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE89279144188C84A243F21F384BABE /* CocoaProxy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25C58FD9175024CAB63C06A61DDB6E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F431B0C3A1EBB813B423AB6806B500A6;
+			remoteInfo = InfiniteLayout;
+		};
+		365EE4F46514188A54E649412DCA0BD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D34D96BEC2472E464F78E8C7C5511547;
+			remoteInfo = CocoaProxy;
+		};
+		B1ED02535BEC2272FE4253B23341DB41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D34D96BEC2472E464F78E8C7C5511547;
+			remoteInfo = CocoaProxy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B18CD650E8347B4320DE6EB089DE478 /* CocoaProxy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaProxy-Info.plist"; sourceTree = "<group>"; };
+		0CCF473828797967D3FC2EDFFB3AA072 /* InfiniteLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = InfiniteLayout.modulemap; sourceTree = "<group>"; };
+		17C8B514E41A38EFE96C41B6438C0982 /* InfiniteLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InfiniteLayout-umbrella.h"; sourceTree = "<group>"; };
+		28B8942DF187FA653F5DD29503B0CBFA /* Pods-Vietcombanks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Vietcombanks-dummy.m"; sourceTree = "<group>"; };
+		2E7F2F02ACA63C46B0B1AD2F2A58A2C9 /* InfiniteLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = InfiniteLayout.framework; path = InfiniteLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3575001EB6B23B92C76B1DBCB5C99C43 /* InfiniteLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfiniteLayout.swift; path = InfiniteLayout/Classes/InfiniteLayout.swift; sourceTree = "<group>"; };
+		41039E0B3507D06885735DF1D9E9F308 /* Pods_Vietcombanks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Vietcombanks.framework; path = "Pods-Vietcombanks.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		459CD8493E169D61479569B8DAD54988 /* Pods-Vietcombanks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Vietcombanks.modulemap"; sourceTree = "<group>"; };
+		4AC7DE0C1E2E890B0238E1CF4F34D63E /* Pods-Vietcombanks-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vietcombanks-acknowledgements.plist"; sourceTree = "<group>"; };
+		5ACF380B814B85C3E5CF487C05CE7FA5 /* CocoaProxy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaProxy.xcconfig; sourceTree = "<group>"; };
+		62E2326BB290190280EC4C0376B9EB7F /* CocoaProxy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaProxy-umbrella.h"; sourceTree = "<group>"; };
+		63F222B1562B45F0976135CA056DB20F /* Pods-Vietcombanks-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Vietcombanks-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7481409D2CA1FE51D6F5B57245EED042 /* CocoaProxy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaProxy.modulemap; sourceTree = "<group>"; };
+		7B8928BD835675093378FDBE36F7EA9D /* InfiniteLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "InfiniteLayout-Info.plist"; sourceTree = "<group>"; };
+		817FD6262C17D34498C774E89C879915 /* Pods-Vietcombanks-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Vietcombanks-frameworks.sh"; sourceTree = "<group>"; };
+		820334B7F0311222094AE7CD870AD527 /* Pods-Vietcombanks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vietcombanks.debug.xcconfig"; sourceTree = "<group>"; };
+		9339A55FE14FA3AFD825C4C31DB9CCCB /* InfiniteLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InfiniteLayout.xcconfig; sourceTree = "<group>"; };
+		940F9EA0AEB137ED09AF4EBEEC3AEA23 /* CocoaProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaProxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E69DCB8F1CDA17E775661BFA362262 /* CocoaProxy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaProxy-prefix.pch"; sourceTree = "<group>"; };
+		9808EFBD8453A847CE10A0967F3223F4 /* CocoaProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaProxy.framework; path = CocoaProxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B520FBF5F3E745F43C4FC59DC3D8749F /* Pods-Vietcombanks-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vietcombanks-Info.plist"; sourceTree = "<group>"; };
+		BBE89279144188C84A243F21F384BABE /* CocoaProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CocoaProxy.m; path = CocoaProxy/Classes/CocoaProxy.m; sourceTree = "<group>"; };
+		C1B9066DA59D21B7C11B8A27D6CF13D5 /* Pods-Vietcombanks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vietcombanks.release.xcconfig"; sourceTree = "<group>"; };
+		C2139226530E36C8787C4D75E214C26F /* CocoaProxy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaProxy-dummy.m"; sourceTree = "<group>"; };
+		C36C3B225C0E06E0D13AAE92DBF02254 /* Pods-Vietcombanks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Vietcombanks-umbrella.h"; sourceTree = "<group>"; };
+		C49D153097E86A30BD58B6B23B4338E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC9F268269D2448772015A0643C10B00 /* InfiniteCollectionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfiniteCollectionViewController.swift; path = InfiniteLayout/Classes/InfiniteCollectionViewController.swift; sourceTree = "<group>"; };
+		D0501CF89C564A595D9D6EFF72D1441C /* InfiniteCollectionViewProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfiniteCollectionViewProxy.swift; path = InfiniteLayout/Classes/InfiniteCollectionViewProxy.swift; sourceTree = "<group>"; };
+		D8B30204B68433638959FF632B3E3A5E /* InfiniteLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InfiniteLayout-prefix.pch"; sourceTree = "<group>"; };
+		DCC5A6737FE5F72BE41F754151402B4E /* CocoaProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaProxy.h; path = CocoaProxy/Classes/CocoaProxy.h; sourceTree = "<group>"; };
+		E1A120CBA61108BD36B7C79CAFE13A2C /* InfiniteCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfiniteCollectionView.swift; path = InfiniteLayout/Classes/InfiniteCollectionView.swift; sourceTree = "<group>"; };
+		FA364ED1D5072656E7C297C2880AB82A /* InfiniteDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfiniteDataSource.swift; path = InfiniteLayout/Classes/InfiniteDataSource.swift; sourceTree = "<group>"; };
+		FACDE88B29616F93FB9DA0B90B4DB23D /* InfiniteLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InfiniteLayout-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10481FAD9A23D12BC62C12C4C979B9D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09F401269DD5C9F2C4E2ADDA8D707D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC72034EBCF85E00C0550FB0A55F5F2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C476AF962A024F31B01E20E4FAE043 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14254C10CD957B3B4B012FCD6EC957A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB9FAECF3C4294F649CFA45DE60F54B /* CocoaProxy.framework in Frameworks */,
+				42A8DC08A23F0C34201CE788BF5E85CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07117074479AB4F7EE53375E3D36BADA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E1A120CBA61108BD36B7C79CAFE13A2C /* InfiniteCollectionView.swift */,
+				CC9F268269D2448772015A0643C10B00 /* InfiniteCollectionViewController.swift */,
+				D0501CF89C564A595D9D6EFF72D1441C /* InfiniteCollectionViewProxy.swift */,
+				FA364ED1D5072656E7C297C2880AB82A /* InfiniteDataSource.swift */,
+				3575001EB6B23B92C76B1DBCB5C99C43 /* InfiniteLayout.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		0ED923A4D5FF86D77D5874ABF73E983F /* InfiniteLayout */ = {
+			isa = PBXGroup;
+			children = (
+				07117074479AB4F7EE53375E3D36BADA /* Core */,
+				4F2C6D8D9DF6F048ED07E77F996E61BF /* Support Files */,
+			);
+			name = InfiniteLayout;
+			path = InfiniteLayout;
+			sourceTree = "<group>";
+		};
+		14BC5D881CEC552DBE0521EC7902C139 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7481409D2CA1FE51D6F5B57245EED042 /* CocoaProxy.modulemap */,
+				5ACF380B814B85C3E5CF487C05CE7FA5 /* CocoaProxy.xcconfig */,
+				C2139226530E36C8787C4D75E214C26F /* CocoaProxy-dummy.m */,
+				0B18CD650E8347B4320DE6EB089DE478 /* CocoaProxy-Info.plist */,
+				97E69DCB8F1CDA17E775661BFA362262 /* CocoaProxy-prefix.pch */,
+				62E2326BB290190280EC4C0376B9EB7F /* CocoaProxy-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaProxy";
+			sourceTree = "<group>";
+		};
+		35EB595B80148061D9F73D72F21E2C99 /* Pods-Vietcombanks */ = {
+			isa = PBXGroup;
+			children = (
+				459CD8493E169D61479569B8DAD54988 /* Pods-Vietcombanks.modulemap */,
+				63F222B1562B45F0976135CA056DB20F /* Pods-Vietcombanks-acknowledgements.markdown */,
+				4AC7DE0C1E2E890B0238E1CF4F34D63E /* Pods-Vietcombanks-acknowledgements.plist */,
+				28B8942DF187FA653F5DD29503B0CBFA /* Pods-Vietcombanks-dummy.m */,
+				817FD6262C17D34498C774E89C879915 /* Pods-Vietcombanks-frameworks.sh */,
+				B520FBF5F3E745F43C4FC59DC3D8749F /* Pods-Vietcombanks-Info.plist */,
+				C36C3B225C0E06E0D13AAE92DBF02254 /* Pods-Vietcombanks-umbrella.h */,
+				820334B7F0311222094AE7CD870AD527 /* Pods-Vietcombanks.debug.xcconfig */,
+				C1B9066DA59D21B7C11B8A27D6CF13D5 /* Pods-Vietcombanks.release.xcconfig */,
+			);
+			name = "Pods-Vietcombanks";
+			path = "Target Support Files/Pods-Vietcombanks";
+			sourceTree = "<group>";
+		};
+		3B4F95FFDDC63AB8594A9B1DB0ABD535 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9808EFBD8453A847CE10A0967F3223F4 /* CocoaProxy.framework */,
+				2E7F2F02ACA63C46B0B1AD2F2A58A2C9 /* InfiniteLayout.framework */,
+				41039E0B3507D06885735DF1D9E9F308 /* Pods_Vietcombanks.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E8E22FEAF8D8471E644B15BAB80C8F6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35EB595B80148061D9F73D72F21E2C99 /* Pods-Vietcombanks */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4F2C6D8D9DF6F048ED07E77F996E61BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CCF473828797967D3FC2EDFFB3AA072 /* InfiniteLayout.modulemap */,
+				9339A55FE14FA3AFD825C4C31DB9CCCB /* InfiniteLayout.xcconfig */,
+				FACDE88B29616F93FB9DA0B90B4DB23D /* InfiniteLayout-dummy.m */,
+				7B8928BD835675093378FDBE36F7EA9D /* InfiniteLayout-Info.plist */,
+				D8B30204B68433638959FF632B3E3A5E /* InfiniteLayout-prefix.pch */,
+				17C8B514E41A38EFE96C41B6438C0982 /* InfiniteLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/InfiniteLayout";
+			sourceTree = "<group>";
+		};
+		BECF770BCB9BC6EF38522C423EEB448E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				940F9EA0AEB137ED09AF4EBEEC3AEA23 /* CocoaProxy.framework */,
+				C5385F41183F13E391AC45BE7C1C3341 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4FFEDDD4F911C300A6E51F7EBE08040 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9ADBF2499A306711E54541A1BB2BAF4 /* CocoaProxy */,
+				0ED923A4D5FF86D77D5874ABF73E983F /* InfiniteLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5385F41183F13E391AC45BE7C1C3341 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C49D153097E86A30BD58B6B23B4338E6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BECF770BCB9BC6EF38522C423EEB448E /* Frameworks */,
+				C4FFEDDD4F911C300A6E51F7EBE08040 /* Pods */,
+				3B4F95FFDDC63AB8594A9B1DB0ABD535 /* Products */,
+				3E8E22FEAF8D8471E644B15BAB80C8F6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E9ADBF2499A306711E54541A1BB2BAF4 /* CocoaProxy */ = {
+			isa = PBXGroup;
+			children = (
+				DCC5A6737FE5F72BE41F754151402B4E /* CocoaProxy.h */,
+				BBE89279144188C84A243F21F384BABE /* CocoaProxy.m */,
+				14BC5D881CEC552DBE0521EC7902C139 /* Support Files */,
+			);
+			name = CocoaProxy;
+			path = CocoaProxy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5FE81D3AA0C30C96019C07385A2CEA0E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B63AE97D56FBF9A8BA1605C39A9CAE /* Pods-Vietcombanks-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5ECF9EE45B005AC9B47CD951A77FD65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897FE21118D7D4B5CB8704546BA3DE6C /* InfiniteLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4093DB1EEEFF33795D9243662310CD9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A828BE2DEAA9C74D22F29EA741BCE97 /* CocoaProxy-umbrella.h in Headers */,
+				99DE8516D707CF8B0A7A1E716079DF5F /* CocoaProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A75BC2FF4A7155573EB1AD29FD679567 /* Pods-Vietcombanks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7481F48C6DE82F4287112E40539E36F1 /* Build configuration list for PBXNativeTarget "Pods-Vietcombanks" */;
+			buildPhases = (
+				5FE81D3AA0C30C96019C07385A2CEA0E /* Headers */,
+				43FD180800423004C909BE12147F0D76 /* Sources */,
+				10481FAD9A23D12BC62C12C4C979B9D5 /* Frameworks */,
+				D091C9AEFD3099CC80FB617758D0DFB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3D909743CFBFEE395490029A21AB707 /* PBXTargetDependency */,
+				F918604D2C87273A6F85D9F8EE4C0D96 /* PBXTargetDependency */,
+			);
+			name = "Pods-Vietcombanks";
+			productName = "Pods-Vietcombanks";
+			productReference = 41039E0B3507D06885735DF1D9E9F308 /* Pods_Vietcombanks.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D34D96BEC2472E464F78E8C7C5511547 /* CocoaProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6451B715CA2C9EDD8E1F636F975AF67 /* Build configuration list for PBXNativeTarget "CocoaProxy" */;
+			buildPhases = (
+				B4093DB1EEEFF33795D9243662310CD9 /* Headers */,
+				818CB515B40A2122FEB1D6A43F800384 /* Sources */,
+				CC72034EBCF85E00C0550FB0A55F5F2A /* Frameworks */,
+				9D4EFDB3E388445CF1E2479D62DA82D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaProxy;
+			productName = CocoaProxy;
+			productReference = 9808EFBD8453A847CE10A0967F3223F4 /* CocoaProxy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F431B0C3A1EBB813B423AB6806B500A6 /* InfiniteLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 135521F28C76189CD7105E9532FBF8D6 /* Build configuration list for PBXNativeTarget "InfiniteLayout" */;
+			buildPhases = (
+				A5ECF9EE45B005AC9B47CD951A77FD65 /* Headers */,
+				CE62935F07EBD798AE8D15E9202396D9 /* Sources */,
+				F14254C10CD957B3B4B012FCD6EC957A /* Frameworks */,
+				5CBCD21F31B5D3FF7EEB95EC10CB33E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CAABCFE90AA42DDA6F499FCA778A75B /* PBXTargetDependency */,
+			);
+			name = InfiniteLayout;
+			productName = InfiniteLayout;
+			productReference = 2E7F2F02ACA63C46B0B1AD2F2A58A2C9 /* InfiniteLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3B4F95FFDDC63AB8594A9B1DB0ABD535 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D34D96BEC2472E464F78E8C7C5511547 /* CocoaProxy */,
+				F431B0C3A1EBB813B423AB6806B500A6 /* InfiniteLayout */,
+				A75BC2FF4A7155573EB1AD29FD679567 /* Pods-Vietcombanks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CBCD21F31B5D3FF7EEB95EC10CB33E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D4EFDB3E388445CF1E2479D62DA82D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D091C9AEFD3099CC80FB617758D0DFB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43FD180800423004C909BE12147F0D76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8888C0563EE3552112B951D66AC57B /* Pods-Vietcombanks-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818CB515B40A2122FEB1D6A43F800384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665A9738B4D7C8318038415489F75B77 /* CocoaProxy-dummy.m in Sources */,
+				F894875D44FFB82FFB58AE8F4876B47E /* CocoaProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE62935F07EBD798AE8D15E9202396D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820F3D2D4B7A676D64D4E15FE7F5E200 /* InfiniteCollectionView.swift in Sources */,
+				8B77F3AF0801EF5F253D278684FFB001 /* InfiniteCollectionViewController.swift in Sources */,
+				B3627BAE0C5E2968CB33F9ABA3810480 /* InfiniteCollectionViewProxy.swift in Sources */,
+				B23BA65874FAC0269C5C41E903D97585 /* InfiniteDataSource.swift in Sources */,
+				53F59EF2C2714399A9C6A8B055B8CBCA /* InfiniteLayout-dummy.m in Sources */,
+				F7A303635C5569B11EA97C646EA273DF /* InfiniteLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CAABCFE90AA42DDA6F499FCA778A75B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaProxy;
+			target = D34D96BEC2472E464F78E8C7C5511547 /* CocoaProxy */;
+			targetProxy = B1ED02535BEC2272FE4253B23341DB41 /* PBXContainerItemProxy */;
+		};
+		A3D909743CFBFEE395490029A21AB707 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaProxy;
+			target = D34D96BEC2472E464F78E8C7C5511547 /* CocoaProxy */;
+			targetProxy = 365EE4F46514188A54E649412DCA0BD0 /* PBXContainerItemProxy */;
+		};
+		F918604D2C87273A6F85D9F8EE4C0D96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = InfiniteLayout;
+			target = F431B0C3A1EBB813B423AB6806B500A6 /* InfiniteLayout */;
+			targetProxy = 25C58FD9175024CAB63C06A61DDB6E16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		027C41E7E2FF714113113366C24D9DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 820334B7F0311222094AE7CD870AD527 /* Pods-Vietcombanks.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vietcombanks/Pods-Vietcombanks-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vietcombanks/Pods-Vietcombanks.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		38F67EEA46B751531D80E90761B1A3E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1B9066DA59D21B7C11B8A27D6CF13D5 /* Pods-Vietcombanks.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vietcombanks/Pods-Vietcombanks-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vietcombanks/Pods-Vietcombanks.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		40CFA28E30B16FC5927E32928A894C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ACF380B814B85C3E5CF487C05CE7FA5 /* CocoaProxy.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaProxy/CocoaProxy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaProxy/CocoaProxy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaProxy/CocoaProxy.modulemap";
+				PRODUCT_MODULE_NAME = CocoaProxy;
+				PRODUCT_NAME = CocoaProxy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5AA302EBB688AFFFA075252EBB22D67F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ACF380B814B85C3E5CF487C05CE7FA5 /* CocoaProxy.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaProxy/CocoaProxy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaProxy/CocoaProxy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaProxy/CocoaProxy.modulemap";
+				PRODUCT_MODULE_NAME = CocoaProxy;
+				PRODUCT_NAME = CocoaProxy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B63080108C23CE08BDBF603D9D045F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9339A55FE14FA3AFD825C4C31DB9CCCB /* InfiniteLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/InfiniteLayout/InfiniteLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/InfiniteLayout/InfiniteLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/InfiniteLayout/InfiniteLayout.modulemap";
+				PRODUCT_MODULE_NAME = InfiniteLayout;
+				PRODUCT_NAME = InfiniteLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E67E7405055CC7CE6456CBB06270B73F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9339A55FE14FA3AFD825C4C31DB9CCCB /* InfiniteLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/InfiniteLayout/InfiniteLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/InfiniteLayout/InfiniteLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/InfiniteLayout/InfiniteLayout.modulemap";
+				PRODUCT_MODULE_NAME = InfiniteLayout;
+				PRODUCT_NAME = InfiniteLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		135521F28C76189CD7105E9532FBF8D6 /* Build configuration list for PBXNativeTarget "InfiniteLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E67E7405055CC7CE6456CBB06270B73F /* Debug */,
+				9B63080108C23CE08BDBF603D9D045F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7481F48C6DE82F4287112E40539E36F1 /* Build configuration list for PBXNativeTarget "Pods-Vietcombanks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				027C41E7E2FF714113113366C24D9DAA /* Debug */,
+				38F67EEA46B751531D80E90761B1A3E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6451B715CA2C9EDD8E1F636F975AF67 /* Build configuration list for PBXNativeTarget "CocoaProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA302EBB688AFFFA075252EBB22D67F /* Debug */,
+				40CFA28E30B16FC5927E32928A894C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
